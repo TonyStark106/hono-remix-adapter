@@ -1,6 +1,6 @@
 {
   "name": "hono-remix-adapter",
-  "version": "0.5.0",
+  "version": "0.5.4",
   "type": "module",
   "scripts": {
     "test": "npm run test:e2e",
@@ -95,14 +95,15 @@
   },
   "dependencies": {
     "@hono/vite-dev-server": "^0.17.0",
-    "react-router": "^7.0.1",
-    "remix-hono": "^0.0.16"
+    "@remix-run/server-runtime": "^2.15.0",
+    "react-router": "^7.0.1"
   },
   "peerDependencies": {
     "hono": "*"
   },
   "optionalDependencies": {
     "@hono/node-server": "*",
+    "@remix-run/cloudflare": "*",
     "@remix-run/node": "*"
   },
   "engines": {
